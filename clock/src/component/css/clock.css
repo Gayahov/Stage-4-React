@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    height: 404;
+    margin: 15px;
+    position: relative;
+  }
+  img{
+    height: 30vw;
+    width:30vw ;
+    margin: auto;
+  }
+   
+  .Pointer {
+    position: absolute;
+    top: 9.5vw;
+    left: 50vw;
+    height: 7vw;
+    width: 0.5vw;
+    border-radius: 3px;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    /* transition: .9s; */
+    transition-duration: 2s;
+    background-color: rgb(31, 142, 183);
+}
+  input {
+    outline: none;
+    border: 2px solid rgb(31, 142, 183);;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  button {
+    background-color: rgb(31, 142, 183);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    outline:none;
+  }
+  
