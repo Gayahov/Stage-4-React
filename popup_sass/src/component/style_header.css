@@ -1,0 +1,12 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("./assets/slider-image.jpg");
+}
+/*# sourceMappingURL=style.css.map */
