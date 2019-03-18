@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
-import Project from './component/Index';
-import './App.css';
+import Delete from './lifecicle_1/delete'
+///import ChangeColor from './lifecicle_1/changes';
+//import Project from './component/Index';
+//import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Project/>
+      <Delete/>
+      //<ChangeColor/>
+      //<Project/>
     );
   }
 }
